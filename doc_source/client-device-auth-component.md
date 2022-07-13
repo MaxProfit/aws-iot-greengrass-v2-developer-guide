@@ -250,8 +250,8 @@ The following example configuration specifies to allow client devices whose name
   "deviceGroups": {
     "formatVersion": "2021-03-05",
     "definitions": {
-      "MyDeviceGroup": {
-        "selectionRule": "thingName: MyClientDevice*",
+      "MyPermissiveDeviceGroup": {
+        "selectionRule": "thingName: *",
         "policyName": "MyPermissivePolicy"
       }
     },
